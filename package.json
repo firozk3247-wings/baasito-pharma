@@ -1,0 +1,16 @@
+{
+  "name": "baasito-pharma",
+  "version": "1.0.0",
+  "description": "Official Website for Baasito Pharma Pvt. Ltd.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongoose": "^8.24.8"
+  }
+}
